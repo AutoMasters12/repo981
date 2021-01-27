@@ -8,7 +8,6 @@ from components.flights import Flights
 driver=BrowserUtils().openBrower()
 BrowserUtils().invokeApp(driver)
 HomePage().verifyHomepage(driver)
-HomePage().verifyHomepage(driver)
 Flights().performSearchFlights(driver)
 BrowserUtils().killBrowser(driver)
 
